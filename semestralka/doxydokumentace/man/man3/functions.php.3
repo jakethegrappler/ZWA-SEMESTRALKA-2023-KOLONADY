@@ -1,0 +1,64 @@
+.TH "functions.php" 3 "zwa" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+functions.php
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBloadPar\fP ($kolonadaName, $filename)"
+.br
+.ti -1c
+.RI "\fBgetNames\fP ()"
+.br
+.ti -1c
+.RI "\fBcsrf_token\fP ()"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "csrf_token ()"
+Vygeneruje a získá CSRF token\&.
+.PP
+Pokud relace ještě nemá CSRF token, vygeneruje ho a uloží do relace\&.
+.PP
+\fBReturns\fP
+.RS 4
+string Vygenerovaný nebo existující CSRF token\&. 
+.RE
+.PP
+
+.SS "getNames ()"
+Získá pole jmen z textového souboru 'kolonady\&.txt'\&.
+.PP
+\fBReturns\fP
+.RS 4
+array Pole obsahující jména získaná ze souboru\&. 
+.RE
+.PP
+
+.SS "loadPar ( $kolonadaName,  $filename)"
+Načte odstavce z určeného textového souboru a vytiskne každý odstavec v HTML elementu 
+.PP
+\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$kolonadaName\fP Název adresáře Kolonády obsahujícího textový soubor\&. 
+.br
+\fI$filename\fP Název textového souboru (bez přípony), který má být načten\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+void 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for zwa from the source code\&.

@@ -1,0 +1,26 @@
+.TH "login.php" 3 "zwa" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+login.php
+.SH SYNOPSIS
+.br
+.PP
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "if(isset( $_POST[ 'submit'])) \fBif\fP (isset( $_SESSION[ 'logged_in']) &&$_SESSION[ 'logged_in']===true)"
+.br
+.in -1c
+.SH "Variable Documentation"
+.PP 
+.SS "if(isset($_POST['submit'])) if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']===true) (isset($_SESSION['logged_in']) && $_SESSION[ 'logged_in'] = \fC== true\fP)"
+Vyžaduje soubor s definicí třídy \fBLoginUser\fP\&. Ověřuje odeslání formuláře pro přihlášení\&. Kontroluje, zda je uživatel již přihlášen, a přesměrovává na hlavní stránku\&. Ověřuje token pro ochranu proti CSRF útokům\&.
+.PP
+Vytvoří instanci třídy \fBLoginUser\fP s předaným uživatelským jménem a heslem\&.
+.PP
+Ověřuje, zda je uživatel přihlášen, a přesměruje na hlavní stránku\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for zwa from the source code\&.

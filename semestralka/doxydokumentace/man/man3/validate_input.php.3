@@ -1,0 +1,64 @@
+.TH "validate_input.php" 3 "zwa" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+validate_input.php
+.SH SYNOPSIS
+.br
+.PP
+.SS "Namespaces"
+
+.in +1c
+.ti -1c
+.RI "namespace \fBServerValidation\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBvalidateField\fP ($field, $value)"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fBif\fP($_SERVER['REQUEST_METHOD']==='POST') \fBelse\fP"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "validateField ( $field,  $value)"
+Funkce pro validaci vstupních dat podle pole a hodnoty\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$field\fP Pole, které se má validovat (např\&. 'username', 'email', 'password')\&. 
+.br
+\fI$value\fP Hodnota pole pro validaci\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+array Výsledek validace obsahující 'isValid' (true/false) a 'message' (popis validace)\&. 
+.RE
+.PP
+Validace podle pole ($field) a hodnoty ($value) Například, validace pro jméno
+.PP
+Validace pro email
+.PP
+Validace pro heslo
+.SH "Variable Documentation"
+.PP 
+.SS "\fBif\fP ( $_SERVER[ 'REQUEST_METHOD']==='POST') else"
+\fBInitial value:\fP.PP
+.nf
+{
+    
+    echo json_encode(array('isValid' => false, 'message' => 'Invalid request'))
+.fi
+Zpracování pouze POST požadavků 
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for zwa from the source code\&.

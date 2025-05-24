@@ -1,0 +1,59 @@
+.TH "submit_comment.php" 3 "zwa" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+submit_comment.php
+.SH SYNOPSIS
+.br
+.PP
+.SS "Namespaces"
+
+.in +1c
+.ti -1c
+.RI "namespace \fBCommentProcessing\fP"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fB$user\fP = new \fBLoginUser\fP(null, null)"
+.br
+.ti -1c
+.RI "\fB$kolonadaName\fP = isset($_GET['name']) ? $_GET['name'] : ''"
+.br
+.ti -1c
+.RI "\fB$item_name\fP = isset($_GET['name'])"
+.br
+.ti -1c
+.RI "\fB$username\fP = $user\->getUsername()"
+.br
+.ti -1c
+.RI "\fB$comment\fP = $_POST['comment']"
+.br
+.ti -1c
+.RI "\fBif\fP( $comment !=null) \fBif\fP(isset($_POST['redirect']) &&!empty($_POST['redirect'])) \fBelse\fP"
+.br
+.in -1c
+.SH "Variable Documentation"
+.PP 
+.SS "$comment = $_POST['comment']"
+Získání komentáře z formuláře\&. 
+.SS "$item_name = isset($_GET['name'])"
+Získání informací o položce a uživateli\&. 
+.SS "$kolonadaName = isset($_GET['name']) ? $_GET['name'] : ''"
+Získání názvu položky z parametru URL\&. 
+.SS "$user = new \fBLoginUser\fP(null, null)"
+Načtení třídy pro ověření uživatele\&. Vytvoření instance třídy pro ověření uživatele\&. 
+.SS "$username = $user\->getUsername()"
+
+.SS "\fBif\fP($comment !=null) \fBif\fP (isset( $_POST[ 'redirect']) &&!empty( $_POST[ 'redirect'])) else"
+\fBInitial value:\fP.PP
+.nf
+{
+        header("Location: index\&.php")
+.fi
+Uložení komentáře do JSON souboru, pokud byl zadán\&. Přesměrování zpět na původní nebo úvodní stránku\&. 
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for zwa from the source code\&.

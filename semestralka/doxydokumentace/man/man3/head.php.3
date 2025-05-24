@@ -1,0 +1,40 @@
+.TH "head.php" 3 "zwa" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+head.php \- Obsah souboru pro hlavičku HTML stránky\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fB$user\fP = new \fBLoginUser\fP(null, null)"
+.br
+.ti -1c
+.RI "\fBif\fP($user\->isLoggedIn()) \fBelse\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Obsah souboru pro hlavičku HTML stránky\&. 
+
+\fBhead\&.php\fP 
+.SH "Variable Documentation"
+.PP 
+.SS "$user = new \fBLoginUser\fP(null, null)"
+
+.SS "\fBif\fP ( $user\->isLoggedIn()) else"
+\fBInitial value:\fP.PP
+.nf
+{
+    include "bar\&.php"
+.fi
+Zobrazuje lištu v závislosti na přihlášení uživatele\&.
+.PP
+Pokud je uživatel přihlášen, zobrazí se lišta pro přihlášeného uživatele (\fC\fBbar_in\&.php\fP\fP), jinak se zobrazí lišta pro nepřihlášeného uživatele (\fC\fBbar\&.php\fP\fP)\&. 
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for zwa from the source code\&.

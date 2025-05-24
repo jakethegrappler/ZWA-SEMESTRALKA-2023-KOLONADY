@@ -1,0 +1,33 @@
+.TH "register.php" 3 "zwa" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+register.php
+.SH SYNOPSIS
+.br
+.PP
+.SS "Namespaces"
+
+.in +1c
+.ti -1c
+.RI "namespace \fBRegistration\fP"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fBif\fP (isset( $_POST[ 'submit']) &&$_POST[ 'submit']==='submitted')"
+.br
+.in -1c
+.SH "Variable Documentation"
+.PP 
+.SS "if(isset($_POST['submit']) && $_POST['submit']==='submitted') (isset($_POST['submit']) && $_POST[ 'submit'] = \fC== 'submitted'\fP)"
+Vyžaduje soubor s definicí třídy \fBRegisterUser\fP\&. Zpracování formuláře při odeslání\&.
+.PP
+Provádí kontrolu CSRF útoků a vytváří instanci třídy pro registraci uživatele\&. Při úspěšné registraci přesměrovává na přihlašovací stránku\&.
+.PP
+@uses \fBRegisterUser\fP 
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for zwa from the source code\&.

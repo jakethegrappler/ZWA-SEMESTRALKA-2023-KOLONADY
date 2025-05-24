@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['_24comment_0',['$comment',['../submit__comment_8php.html#a536677acc0163c53c067316a97456e6c',1,'submit_comment.php']]],
+  ['_24comment_5fid_1',['$comment_id',['../edit__comment_8php.html#a8bec58a1c70d2e1e235fb81e956211dc',1,'edit_comment.php']]],
+  ['_24comments_2',['$comments',['../edit__comment_8php.html#a35e8cdeb473a5eb016fea893d14de951',1,'$comments:&#160;edit_comment.php'],['../kolonada_8php.html#a35e8cdeb473a5eb016fea893d14de951',1,'$comments:&#160;kolonada.php']]],
+  ['_24commentsperpage_3',['$commentsPerPage',['../kolonada_8php.html#a7a6a43585d88549081cc281d3a4d212d',1,'kolonada.php']]],
+  ['_24current_5fpage_4',['$current_page',['../kolonada_8php.html#a8ed60f12a4d49a92cadd596fd881b904',1,'kolonada.php']]],
+  ['_24current_5fpage_5fcomments_5',['$current_page_comments',['../kolonada_8php.html#ad438703f84955c4df87f48bc68414b93',1,'kolonada.php']]],
+  ['_24current_5fpage_5fname_6',['$current_page_name',['../kolonada_8php.html#a1e0c61d3ecce3411074911e6227fa4da',1,'kolonada.php']]],
+  ['_24editable_5fcomment_7',['$editable_comment',['../edit__comment_8php.html#a7fc8a80ba02ab73ee458c7be80228cd3',1,'edit_comment.php']]],
+  ['_24error_8',['$error',['../class_login_user.html#ab8dc5f88175d8c092c6eb18a44bdcc86',1,'LoginUser\$error'],['../class_register_user.html#aee288f46a2d06e40defc3b539a6e4c60',1,'RegisterUser\$error']]],
+  ['_24imagepath_9',['$imagePath',['../account_8php.html#acbe9353fa1111bcae268c0dc80333131',1,'account.php']]],
+  ['_24item_5fname_10',['$item_name',['../submit__comment_8php.html#a513deee9a94556da0970c39b632841f6',1,'submit_comment.php']]],
+  ['_24kolonadaname_11',['$kolonadaname',['../kolonada_8php.html#a8e83c61a140a74ae04c4a2f7184c5080',1,'$kolonadaName:&#160;kolonada.php'],['../submit__comment_8php.html#a8e83c61a140a74ae04c4a2f7184c5080',1,'$kolonadaName:&#160;submit_comment.php']]],
+  ['_24mail_12',['$mail',['../account_8php.html#ac409786c163a1974d1e24a6767a95166',1,'account.php']]],
+  ['_24names_13',['$names',['../index_8php.html#affd6fc4c8210d8b9b164c72a0332e732',1,'index.php']]],
+  ['_24newest_5fcomments_14',['$newest_comments',['../kolonada_8php.html#ab54b7da2fe9ad1900672697863d65cb3',1,'kolonada.php']]],
+  ['_24startindex_15',['$startIndex',['../kolonada_8php.html#a207047d38e1db4b0c58922ca46ba1cd9',1,'kolonada.php']]],
+  ['_24success_16',['$success',['../class_login_user.html#a177118c4c7ee3987844a7bd3a612cad9',1,'LoginUser\$success'],['../class_register_user.html#a445ee7865e18528f58fd4b0070d05a45',1,'RegisterUser\$success']]],
+  ['_24totalcomments_17',['$totalComments',['../kolonada_8php.html#a3147b955d76c6b4fcbe1b4facab6ca24',1,'kolonada.php']]],
+  ['_24totalpages_18',['$totalPages',['../kolonada_8php.html#a9d270d95ca53a5ae61ad917752416d12',1,'kolonada.php']]],
+  ['_24uname_19',['$uname',['../account_8php.html#a227a9443cabbe5e23cfc10c4371e09d1',1,'account.php']]],
+  ['_24user_20',['$user',['../about_8php.html#a598ca4e71b15a1313ec95f0df1027ca5',1,'$user:&#160;about.php'],['../account_8php.html#a598ca4e71b15a1313ec95f0df1027ca5',1,'$user:&#160;account.php'],['../contacts_8php.html#a598ca4e71b15a1313ec95f0df1027ca5',1,'$user:&#160;contacts.php'],['../edit__comment_8php.html#a598ca4e71b15a1313ec95f0df1027ca5',1,'$user:&#160;edit_comment.php'],['../head_8php.html#a598ca4e71b15a1313ec95f0df1027ca5',1,'$user:&#160;head.php'],['../index_8php.html#a598ca4e71b15a1313ec95f0df1027ca5',1,'$user:&#160;index.php'],['../kolonada_8php.html#a598ca4e71b15a1313ec95f0df1027ca5',1,'$user:&#160;kolonada.php'],['../submit__comment_8php.html#a598ca4e71b15a1313ec95f0df1027ca5',1,'$user:&#160;submit_comment.php']]],
+  ['_24username_21',['$username',['../account_8php.html#a0eb82aa5f81cf845de4b36cd653c42cf',1,'$username:&#160;account.php'],['../submit__comment_8php.html#a0eb82aa5f81cf845de4b36cd653c42cf',1,'$username:&#160;submit_comment.php']]]
+];

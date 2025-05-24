@@ -1,0 +1,35 @@
+@media print {
+    /* Change the background color for printing */
+    body {
+      background-color: white;
+    }
+  
+    /* Hide the header and footer */
+    header, footer {
+      display: none;
+    }
+  
+    /* Make the text larger and more legible */
+    h3, p {
+      font-size: 14pt;
+    }
+  
+    /* Remove any borders or outlines */
+    table, th, td {
+      border: none;
+      outline: none;
+    }
+  
+    /* Remove any background colors */
+    .main_banner, .items-table {
+      background-color: transparent;
+    }
+  
+    /* Change the text color to black for better printing */
+    .main_banner, .items-table {
+      color: black;
+    }
+  }
+
+/*    todo dodelat styl pro mensi obrazovku*/
+

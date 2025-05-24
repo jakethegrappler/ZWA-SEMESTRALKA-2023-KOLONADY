@@ -1,0 +1,42 @@
+.TH "edit_comment.php" 3 "zwa" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+edit_comment.php
+.SH SYNOPSIS
+.br
+.PP
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fB$user\fP = new \fBLoginUser\fP(null, null)"
+.br
+.ti -1c
+.RI "\fB$comment_id\fP = $_GET['comment_id']"
+.br
+.ti -1c
+.RI "\fB$comments\fP = json_decode(file_get_contents('\&./jsons/comments\&.json'), true)"
+.br
+.ti -1c
+.RI "\fB$editable_comment\fP = null"
+.br
+.ti -1c
+.RI "\fBforeach\fP($comments as &$comment) if(! $editable_comment) \fBif\fP ( $_SERVER[ 'REQUEST_METHOD']==='POST')"
+.br
+.in -1c
+.SH "Variable Documentation"
+.PP 
+.SS "$comment_id = $_GET['comment_id']"
+
+.SS "$comments = json_decode(file_get_contents('\&./jsons/comments\&.json'), true)"
+
+.SS "$editable_comment = null"
+
+.SS "$user = new \fBLoginUser\fP(null, null)"
+
+.SS "\fBforeach\fP( $comments as & $comment) if(! $editable_comment) if($_SERVER['REQUEST_METHOD']==='POST') ( $_SERVER[ 'REQUEST_METHOD'] = \fC== 'POST'\fP)"
+Přesměruje na indexovou stránku, pokud komentář nebyl nalezen nebo nepatří aktuálnímu uživateli\&. Zpracuje odeslaný formulář s úpravou komentáře\&. 
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for zwa from the source code\&.

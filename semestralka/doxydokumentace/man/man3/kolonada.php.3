@@ -1,0 +1,77 @@
+.TH "kolonada.php" 3 "zwa" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+kolonada.php
+.SH SYNOPSIS
+.br
+.PP
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fB$user\fP = new \fBLoginUser\fP(null, null)"
+.br
+.ti -1c
+.RI "\fB$current_page_name\fP = $_GET['name']"
+.br
+.ti -1c
+.RI "\fB$kolonadaName\fP = isset($_GET['name']) ? $_GET['name'] : ''"
+.br
+.ti -1c
+.RI "\fB$comments\fP = json_decode(file_get_contents('\&./jsons/comments\&.json', true))"
+.br
+.ti -1c
+.RI "\fB$commentsPerPage\fP = 7"
+.br
+.ti -1c
+.RI "\fB$current_page_comments\fP = []"
+.br
+.ti -1c
+.RI "\fBforeach\fP($comments as $comment) \fB$newest_comments\fP = array_reverse($current_page_comments)"
+.br
+.ti -1c
+.RI "\fB$totalComments\fP = count($current_page_comments)"
+.br
+.ti -1c
+.RI "\fB$totalPages\fP = ceil($totalComments / $commentsPerPage)"
+.br
+.ti -1c
+.RI "\fB$current_page\fP = isset($_GET['page']) ? $_GET['page'] : 1"
+.br
+.ti -1c
+.RI "\fB$startIndex\fP = ($current_page \- 1) * $commentsPerPage"
+.br
+.ti -1c
+.RI "for( $i=$startIndex;$i< min( $startIndex+$commentsPerPage, $totalComments);$i++) if($current_page > 1) if( $current_page< $totalPages) \fBif\fP ( $user\->isLoggedIn())"
+.br
+.in -1c
+.SH "Variable Documentation"
+.PP 
+.SS "$comments = json_decode(file_get_contents('\&./jsons/comments\&.json', true))"
+Získá a dekóduje komentáře\&. 
+.SS "$commentsPerPage = 7"
+
+.SS "$current_page = isset($_GET['page']) ? $_GET['page'] : 1"
+
+.SS "$current_page_comments = []"
+
+.SS "$current_page_name = $_GET['name']"
+
+.SS "$kolonadaName = isset($_GET['name']) ? $_GET['name'] : ''"
+
+.SS "\fBforeach\fP ( $comments as $comment) $newest_comments = array_reverse($current_page_comments)"
+Filtruje komentáře pro aktuální stránku\&. Uspořádá seznam komentářů od nejnovějších po nejstarší\&. 
+.SS "$startIndex = ($current_page \- 1) * $commentsPerPage"
+
+.SS "$totalComments = count($current_page_comments)"
+
+.SS "$totalPages = ceil($totalComments / $commentsPerPage)"
+
+.SS "$user = new \fBLoginUser\fP(null, null)"
+
+.SS "for($i=$startIndex; $i< min($startIndex+ $commentsPerPage, $totalComments); $i++) if( $current_page > 1) if($current_page< $totalPages) if($user\->isLoggedIn()) ( $user\->())"
+Zobrazuje komentáře pro aktuální stránku\&. Zobrazuje tlačítko stránkování 'Předchozí'\&. Zobrazuje tlačítko stránkování 'Další'\&. Vloží formulář pro přidání nových komentářů\&. 
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for zwa from the source code\&.

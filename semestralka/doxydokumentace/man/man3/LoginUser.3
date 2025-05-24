@@ -1,0 +1,89 @@
+.TH "LoginUser" 3 "zwa" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+LoginUser
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($username, $password)"
+.br
+.ti -1c
+.RI "\fBisLoggedIn\fP ()"
+.br
+.ti -1c
+.RI "\fBgetUsername\fP ()"
+.br
+.ti -1c
+.RI "\fBgetMail\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$error\fP"
+.br
+.ti -1c
+.RI "\fB$success\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Třída \fBLoginUser\fP slouží k ověření přihlašovacích údajů\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "LoginUser::__construct ( $username,  $password)"
+Konstruktor pro inicializaci třídy s předáním údajů pro přihlášení\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$username\fP Uživatelské jméno pro přihlášení\&. 
+.br
+\fI$password\fP Heslo pro přihlášení\&. 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "LoginUser::getMail ()"
+Metoda pro získání e-mailové adresy uživatele\&.
+.PP
+\fBReturns\fP
+.RS 4
+string E-mailová adresa nebo null, pokud uživatel není přihlášen\&. 
+.RE
+.PP
+
+.SS "LoginUser::getUsername ()"
+Metoda pro získání uživatelského jména\&.
+.PP
+\fBReturns\fP
+.RS 4
+string Uživatelské jméno nebo 'Nepřihlášen'\&. 
+.RE
+.PP
+
+.SS "LoginUser::isLoggedIn ()"
+Metoda pro zjištění, zda je uživatel přihlášen\&.
+.PP
+\fBReturns\fP
+.RS 4
+bool True, pokud je uživatel přihlášen, jinak false\&. 
+.RE
+.PP
+
+.SH "Member Data Documentation"
+.PP 
+.SS "LoginUser::$error"
+
+.SS "LoginUser::$success"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for zwa from the source code\&.

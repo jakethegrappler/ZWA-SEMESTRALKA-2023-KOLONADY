@@ -1,0 +1,66 @@
+.TH "account.php" 3 "zwa" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+account.php
+.SH SYNOPSIS
+.br
+.PP
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fB$user\fP = new \fBLoginUser\fP(null, null)"
+.br
+.ti -1c
+.RI "\fB$username\fP = $user\->getUsername()"
+.br
+.ti -1c
+.RI "\fB$imagePath\fP = 'profiles/image{$username}\&.jpg'"
+.br
+.ti -1c
+.RI "\fBif\fP(file_exists($imagePath)) \fBelse\fP"
+.br
+.ti -1c
+.RI "\fB$uname\fP = $user\->getUsername()"
+.br
+.ti -1c
+.RI "\fB$mail\fP = $user\->getMail()"
+.br
+.in -1c
+.SH "Variable Documentation"
+.PP 
+.SS "$imagePath = 'profiles/image{$username}\&.jpg'"
+
+.SS "$mail = $user\->getMail()"
+Zobrazí informace o uživateli včetně emailové adresy\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$mail\fP Emailová adresa aktuálního uživatele\&. 
+.RE
+.PP
+
+.SS "$uname = $user\->getUsername()"
+Zobrazí informace o uživateli včetně uživatelského jména\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$uname\fP Uživatelské jméno aktuálního uživatele\&. 
+.RE
+.PP
+
+.SS "$user = new \fBLoginUser\fP(null, null)"
+
+.SS "$username = $user\->getUsername()"
+
+.SS "\fBif\fP (file_exists( $imagePath)) else"
+\fBInitial value:\fP.PP
+.nf
+{
+        echo "<img src='images/fb\-profile\&.jpg' alt='No Profile Picture'>"
+.fi
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for zwa from the source code\&.

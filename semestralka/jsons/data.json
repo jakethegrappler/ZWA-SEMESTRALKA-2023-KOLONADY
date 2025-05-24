@@ -1,0 +1,366 @@
+[
+    {
+        "username": "test",
+        "email": "test@email.com",
+        "password": "$2y$10$Ed99YAklfa6d0mtxzh2aIuwUYE1WZ88zr9oFBQ.6.AK7Cw3WHP4LG"
+    },
+    {
+        "username": "ginger",
+        "email": "hhh@seznam.cz",
+        "password": "$2y$10$Vw9kdDEjvXyagmp0vWIhkesnc3VyS.QIXmUjTMMcx\/sWEYsGAeg8G"
+    },
+    {
+        "username": "kuba",
+        "email": "kuba@seznam.cz",
+        "password": "$2y$10$ymzrio9Q8cU.lYURJYumhOlAbVd2Ten..f4s30XrZTyjNZzwF5cW.",
+        "gender": "Male"
+    },
+    {
+        "username": "jakub",
+        "email": "kjakub@seznam.cz",
+        "password": "$2y$10$IPft1sFrhhY1vxIjndliFebmMf\/BfRCvWi7pl52zugawttj2fISK6",
+        "gender": "Male"
+    },
+    {
+        "username": "martin",
+        "email": "seznam@seznam.cz",
+        "password": "$2y$10$UJpOSrUrLuT2ygSNBvCz\/O56NzYnaAHxU26DTmLOlVBuf3Wgo6e4.",
+        "gender": "Male"
+    },
+    {
+        "username": "pett",
+        "email": "sdadas@sezc",
+        "password": "$2y$10$1upaVDLr11IYxQWu0xKNkuzrh2yug2kzXCTIFk75blvYS2lJ3g.V6",
+        "gender": "Male"
+    },
+    {
+        "username": "alena",
+        "email": "sadd@seznam.cz",
+        "password": "$2y$10$m.8qcYSj3gja.P\/vM1jB.O5sQ43kmsp5nDrn3xc9mVT3.RxD1G1na",
+        "gender": "Male"
+    },
+    {
+        "username": "dds`",
+        "email": "ssa@kml.cz",
+        "password": "$2y$10$IqzlKG6Ln0.ZC48kJvuOmeFYS75eN0nIWG\/exspyxDP38Nt2kFfdi",
+        "gender": "Male"
+    },
+    {
+        "username": "nk",
+        "email": "jk@skd.cz",
+        "password": "$2y$10$gHE\/2JmBMXt.miMtnihDJuvcVl4G6fuyVdkoIQ5itaBkyoGFQlAGe",
+        "gender": "Male"
+    },
+    {
+        "username": "zkouska",
+        "email": "zkouska@test.cz",
+        "password": "$2y$10$DkguHs7nKIMv4muBtIJFU.nF3E6YmIgMXYH\/BGbiXTB\/Kkn3IMe.C",
+        "gender": "Other"
+    },
+    {
+        "username": "Luliprd",
+        "email": "luliprd@seznam.cz",
+        "password": "$2y$10$OMaQRec5NkW0xhsqTa6BVeYNx10jshDstUbAqPdnzMm2aKqFUj6ze",
+        "gender": "Other"
+    },
+    {
+        "username": "krativoj",
+        "email": "vojta.kratina@gmail.com",
+        "password": "$2y$10$kGAe65zOKaIK40k58cLlmer0yYcogjr1aN1HEhQ6GEBaYJ\/F4rSyK",
+        "gender": "Other"
+    },
+    {
+        "username": "wartes",
+        "email": "wartes@wartes.cz",
+        "password": "$2y$10$gvAQjsiTUENdr7HSwRkWI.xhFqesW1FcfL7LtqCIVYOxzoS87HTEa",
+        "gender": "Male"
+    },
+    {
+        "username": "wartez",
+        "email": "wartez@wartez.cz",
+        "password": "$2y$10$f7D7TNrPYAQ71P0364Mr2ObLiIqaIketFWaJ9s95Zy3u8l\/7hcWBi",
+        "gender": "Male"
+    },
+    {
+        "username": "vojtakrad",
+        "email": "vojta@krade.cz",
+        "password": "$2y$10$fW5DThHwDUoGfbTtyXTE0.QFi82Q32W9KAvimFiYt1B5OySClWn0e",
+        "gender": "Other"
+    },
+    {
+        "username": "ricardo",
+        "email": "ricardo@mail.cz",
+        "password": "$2y$10$8YYyYKdhStVbegDMP5gYyuU44kLJXtXvp4VZPI9GcwSkcTRUitcsK",
+        "gender": "Male"
+    },
+    {
+        "username": "richard",
+        "email": "richard@mail.cz",
+        "password": "$2y$10$gC5p.sm4SleyzVkLIdrFWevTMWrsIGZeZGqhXih0TCNQa0OsJhq5u",
+        "gender": "Male"
+    },
+    {
+        "username": "khasdfgg",
+        "email": "ALJASDHFZSF@JKDZSF.CX",
+        "password": "$2y$10$HqEiUuwmqpICg3Z8die3QucnLd3s1WrYI0NqXMKIUAlh21LuQPoP6",
+        "gender": "Male"
+    },
+    {
+        "username": "asd",
+        "email": "asd@asd.cz",
+        "password": "$2y$10$pRsdw08WwgYxnNAg3K5JRONZIxOuCxim7Z0Sj47qw9..l\/fZRK1FW",
+        "gender": "Male"
+    },
+    {
+        "username": "zdervgf",
+        "email": "ewfq@fwaew.ads",
+        "password": "$2y$10$prCC3a9Bgo2I2l1ZR.0wQeZLwFeG\/8k0NXygg\/.zS4E34K4QUFZKq",
+        "gender": "Male"
+    },
+    {
+        "username": "aS",
+        "email": "ASD@ASD.XC",
+        "password": "$2y$10$j9T9V1DhHSGOOqFZIje4WuY7VpWyS4slssQcglEuEdHamYJqxlWK2",
+        "gender": "Male"
+    },
+    {
+        "username": "kljb",
+        "email": "aflkifnksa@sad.cz",
+        "password": "$2y$10$d3tErRU88iJsG2i83XgkWOwUe.D2.dlPJlN5czzHZJwqMTI9DIRSy",
+        "gender": "Male"
+    },
+    {
+        "username": "feq",
+        "email": "sdad@sad.cz",
+        "password": "$2y$10$ip.nnnp8ubtDxFu9fXuuQ.7Fhsb75PaVdll0wppM7G9E3SVbo8Jai",
+        "gender": "Male"
+    },
+    {
+        "username": "qwer",
+        "email": "qwe@qwet.cza",
+        "password": "$2y$10$jFIRJlsiOypb1kLPgnBgbu2teiWDrMVBvC9eyOFAnMQRHcEPMQIpC",
+        "gender": "Male"
+    },
+    {
+        "username": "asda",
+        "email": "dsf@sade.cz",
+        "password": "$2y$10$wZe5eLAKu2vhFbHiTkDH.e0ftferKrKIZI36abM0v1snoG8LKNZ6i",
+        "gender": "Male"
+    },
+    {
+        "username": "asdsdgvsas",
+        "email": "dasd@fsdlcv.cz",
+        "password": "$2y$10$p7iB\/F9ZpPOsP517Blm.D.CZ.B4\/OaQ3peliC8WwxyTTf4JXEp3yO",
+        "gender": "Male"
+    },
+    {
+        "username": "afsjkbbsaf",
+        "email": "sad@fd.cz",
+        "password": "$2y$10$mYB81A.F4LmdcPzXFGGThenDCtd2j5wpn3ijHGcruuzwMzwfkjUX.",
+        "gender": "Male"
+    },
+    {
+        "username": "s",
+        "email": "asdf@asd.cz",
+        "password": "$2y$10$WyJRrA1JXB7J4QJs23g5T.3gehLAewISxkRekZYtMHZBWY2Liao5q",
+        "gender": "Male"
+    },
+    {
+        "username": "d",
+        "email": "gfd.@dsa.cz",
+        "password": "$2y$10$StAVvTyQHYXQoaweyYBcue7DBHXPXM2dBL9E7BH2\/SAk9ooRL7c3S",
+        "gender": "Male"
+    },
+    {
+        "username": "lluci",
+        "email": "lisc@sda.cz",
+        "password": "$2y$10$T609f3WqqqeiiNFLRABIJOjnFWjXL9DXM0BWQE1MBxrCinoAbkHoS",
+        "gender": "Male"
+    },
+    {
+        "username": "jakub123",
+        "email": "mail@mail.cz",
+        "password": "$2y$10$3nvxpufS2qibgZ2gGcXOJ.Pv3qAsJaRsK4QyLeV3SYhBGwsVVbvAK",
+        "gender": "Male"
+    },
+    {
+        "username": "asdawdwadada",
+        "email": "asdss@sad.cz",
+        "password": "$2y$10$m\/jIcEsE1QFyOMBkDYe9t.zQdjHUNQq2Q.5MRQSaClQqAWACC5g8a",
+        "gender": "Male"
+    },
+    {
+        "username": "strahov",
+        "email": "strahov@pico.cz",
+        "password": "$2y$10$rdjyFo9jGKSo2qM2JFhZjObosedZ\/vYLwilYxPvAjudgZ5CD.1KhS",
+        "gender": "Male"
+    },
+    {
+        "username": "ASa",
+        "email": "asdasd@asd.cz",
+        "password": "$2y$10$SBLs0CTpHhhS0RDoApVHXe5mbbqI.DI540E3ZA6mTeN351o4d7m4q",
+        "gender": "Male",
+        "image": "\/profiles\/imageASa.jpg"
+    },
+    {
+        "username": "strahov3",
+        "email": "asd@ma.cz",
+        "password": "$2y$10$fnuIfCsb7xFLqH0nQ.yFjePemEpcTgu959jiG8KZ4PaEwh\/MBHkzS",
+        "gender": "Male",
+        "image": "\/profiles\/imagestrahov3.jpg"
+    },
+    {
+        "username": "wdafafa",
+        "email": "asdjknl@asd.cz",
+        "password": "$2y$10$rU65zQyMyGrQPqGC9egxa.L6mmn2Rxh.4ZntXVTvi0.vB16bvNQpO",
+        "gender": "Male",
+        "image": "\/profiles\/"
+    },
+    {
+        "username": "testujem",
+        "email": "asd@sad.cz",
+        "password": "$2y$10$W8XoKtZ8MiL4cHCSePuBOOjXwitvCqKu.nCxaStIZQ2IcZiXObU76",
+        "gender": "Male",
+        "image": "\/profiles\/"
+    },
+    {
+        "username": "testujem2",
+        "email": "sadf@mail.cz",
+        "password": "$2y$10$ickw66Mmi\/Depxu8kRcXHeWV9APg00\/GByQVWe2pRQz3xQF.jXl.y",
+        "gender": "Male",
+        "image": null
+    },
+    {
+        "username": "kokotko",
+        "email": "sda@lk.cz",
+        "password": "$2y$10$Uh9LpHZZoqVMWckRDwnx7uzrZZVHGx83O4\/emj4WUx6gx2dbEzwQ.",
+        "gender": "Male",
+        "image": null
+    },
+    {
+        "username": "pupp",
+        "email": "pupp@mail.cz",
+        "password": "$2y$10$DkMK1VBJIjezxF.Bd\/YeyuLiClauLNVfl3wBgN0nZbCte\/n59iJn2",
+        "gender": "Male",
+        "image": null
+    },
+    {
+        "username": "vary",
+        "email": "vary@mail.cz",
+        "password": "$2y$10$SsPFkpL2T2gUBYZJdWz6AefxkHwht2U4oaVKiM6NnMBk5OhGQva5C",
+        "gender": "Male",
+        "image": "\/profiles\/C:\\Users\\nedba\\AppData\\Local\\Temp\\php7722.tmp"
+    },
+    {
+        "username": "kratom",
+        "email": "kar@sa.cz",
+        "password": "$2y$10$uTsIJ6frcD8\/YCk6NZ6VVO3tDjAnoEu018DhEqGkS9vqs9XSbxEW6",
+        "gender": "Male",
+        "image": "\/profiles\/C:\\Users\\nedba\\AppData\\Local\\Temp\\php2464.tmp"
+    },
+    {
+        "username": "mattoni",
+        "email": "kv@mat.cz",
+        "password": "$2y$10$yQCqJp7Ocg503JQILHbvsOIGJjyGkQsRKh0QnUtkpOX0Ns9xE41ly",
+        "gender": "Male",
+        "image": null
+    },
+    {
+        "username": "lucy",
+        "email": "lucy@sz.cz",
+        "password": "$2y$10$jP53k56Y6jE.WZ99IB3JPeAA0Yup7i8Awf.1EmMTUvbqMT7RcgKfy",
+        "gender": "Female",
+        "image": "\/profiles\/C:\\Users\\nedba\\AppData\\Local\\Temp\\php1195.tmp"
+    },
+    {
+        "username": "edit",
+        "email": "kom@edit.cz",
+        "password": "$2y$10$1j7AqxmGD2l2wlFU0Sns2.YLf4h30Uj.eLWgcdg\/kx1OFVG4rn3Ka",
+        "gender": "Male",
+        "image": "\/profiles\/C:\\Users\\nedba\\AppData\\Local\\Temp\\php502E.tmp"
+    },
+    {
+        "username": "risa",
+        "email": "ksa@sad.cz",
+        "password": "$2y$10$zgtnSxegAv1hYNd5OVVe..zw2rOkN83Umjk1YxgfcTIVu2GkF1Rpe",
+        "gender": "Male",
+        "image": "\/profiles\/C:\\Users\\nedba\\AppData\\Local\\Temp\\php2B1B.tmp"
+    },
+    {
+        "username": "petrsto",
+        "email": "sto@pe.cz",
+        "password": "$2y$10$B52rEwZkRbLWdQVfG355Y.s3SP7c6s7g5JKZFZ2BS77QSHvPfTvom",
+        "gender": "Male",
+        "image": "\/profiles\/C:\\Users\\nedba\\AppData\\Local\\Temp\\php2E26.tmp"
+    },
+    {
+        "username": "vojta",
+        "email": "vojta@gmail.com",
+        "password": "$2y$10$8DUGt8ewJKTXc7sRG\/7VRuHGD7AhX872KwbDQ38UiwAwN7VhCVY0q",
+        "gender": "Male",
+        "image": null
+    },
+    {
+        "username": "vojta1",
+        "email": "sass@kl.com",
+        "password": "$2y$10$oxVeIVc0xWu1QNl4bQaM4OAzAYwlXxyTYFEEqPNCnBi\/hdwAOB\/a2",
+        "gender": "Male",
+        "image": null
+    },
+    {
+        "username": "vojta12",
+        "email": "sas@kl.com",
+        "password": "$2y$10$kn2uJA9miwdbMzQ2KQ7Cp.JBNMnC6rOauGsY8Dfa89BoGMnnts2S6",
+        "gender": "Male",
+        "image": null
+    },
+    {
+        "username": "vojtaano",
+        "email": "sssas@kl.com",
+        "password": "$2y$10$gg0oYo6FP3Us3ibvA7Oe0.3Dr.YNOCfYrAn3PDDMLWVDzx.RaOl1C",
+        "gender": "Male",
+        "image": null
+    },
+    {
+        "username": "vitek",
+        "email": "vit@sds.cz",
+        "password": "$2y$10$i9\/BqTwD5bu9o7Qy0WtHHeE17WxM7YE5om.tagvg1xzxRm.yqeeyK",
+        "gender": "Male",
+        "image": "\/profiles\/C:\\Users\\nedba\\AppData\\Local\\Temp\\phpC4C0.tmp"
+    },
+    {
+        "username": "kubaa",
+        "email": "kuba@ms.cz",
+        "password": "$2y$10$EKgpLpnl2et70tGSnZPmv.Ybb3y65qiMFKbUysZgNlomWnrw5n0k6",
+        "gender": "Male",
+        "image": null
+    },
+    {
+        "username": "kuba1",
+        "email": "kuba1@ms.cz",
+        "password": "$2y$10$JZmjOQoElYzfohESBr3SP.oO6P3SKruRCdQioMfZDwpVfeqmf\/x.6",
+        "gender": "Male",
+        "image": null
+    },
+    {
+        "username": "lazenak",
+        "email": "la@m.cz",
+        "password": "$2y$10$yEEJBnrCl\/LMMkUwEde3r.0DiCNS0IM54DRGIr4TDQj58GWLJCccq",
+        "gender": "Male",
+        "image": null
+    },
+    {
+        "username": "user",
+        "email": "user@mail.cz",
+        "password": "$2y$10$DVZ3XYcOtXP3xsNRQWkWu.cGi\/eUkdQggz9QnH13YtTTaHN\/XhlUm",
+        "gender": "Male",
+        "image": "\/profiles\/C:\\Users\\nedba\\AppData\\Local\\Temp\\php7ED4.tmp"
+    },
+    {
+        "username": "pepavojtek",
+        "email": "pepa@vojtek.cz",
+        "password": "$2y$10$MZL3qWucN8PGA87KraaXSeGVJN3nThCHc66m6P2iqQky5llswc21y",
+        "gender": "Male",
+        "image": null
+    }
+]
